@@ -53,8 +53,8 @@ public class Lexer {
         KEYWORDS.put("False", Token.TokenType.BOOLEAN);
 
 
-        KEYWORDS.put("BENOUADFEL", Token.TokenType.CUSTOM_NAME);
-        KEYWORDS.put("Yacine", Token.TokenType.CUSTOM_FIRSTNAME);
+        KEYWORDS.put("BENOUADFEL", Token.TokenType.BENOUADFEL);
+        KEYWORDS.put("Yacine", Token.TokenType.Yacine);
     }
 
     // Constructeur
