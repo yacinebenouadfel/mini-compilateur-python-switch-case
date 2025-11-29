@@ -81,9 +81,9 @@ public class Token {
         EOF,       // Fin de fichier
         COMMENT,   // # commentaire
 
-        // Mots-clés personnalisés (METTEZ VOTRE NOM !)
-        CUSTOM_NAME,       // Votre nom
-        CUSTOM_FIRSTNAME,  // Votre prénom
+        // Mots-clés personnalisés
+        BENOUADFEL,       // mon nom
+        Yacine,  // mon prénom
 
         // Erreur
         ERROR      // Caractère invalide

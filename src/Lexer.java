@@ -52,9 +52,9 @@ public class Lexer {
         KEYWORDS.put("True", Token.TokenType.BOOLEAN);
         KEYWORDS.put("False", Token.TokenType.BOOLEAN);
 
-        // ⚠️⚠️⚠️ METTEZ VOTRE VRAI NOM ET PRÉNOM ICI ! ⚠️⚠️⚠️
-        KEYWORDS.put("Benali", Token.TokenType.CUSTOM_NAME);        // ← Changez ici
-        KEYWORDS.put("Ahmed", Token.TokenType.CUSTOM_FIRSTNAME);    // ← Changez ici
+
+        KEYWORDS.put("BENOUADFEL", Token.TokenType.CUSTOM_NAME);
+        KEYWORDS.put("Yacine", Token.TokenType.CUSTOM_FIRSTNAME);
     }
 
     // Constructeur
