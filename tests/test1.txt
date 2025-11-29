@@ -1,0 +1,26 @@
+# ========================================
+# TEST 1: Switch/Case Simple
+# Ce test vérifie la structure de base switch/case
+# ========================================
+
+# Déclaration de variable
+x = 10
+
+# Switch/Case basique
+switch (x) {
+    case 1:
+        print("un")
+        break
+    case 2:
+        print("deux")
+        break
+    case 10:
+        print("dix")
+        break
+    default:
+        print("autre valeur")
+        break
+}
+
+# Affichage
+print("Test terminé")

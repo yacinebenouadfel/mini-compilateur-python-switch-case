@@ -1,0 +1,93 @@
+# ========================================
+# TEST 4: Programme Complet
+# Ce test vérifie toutes les structures ensemble
+# ========================================
+
+# Déclarations de variables
+age = 20
+nom = "Alice"
+compteur = 0
+
+# Fonction avec switch
+def evaluer_note(note):
+    if note < 0 or note > 20:
+        return "Note invalide"
+
+    switch (note) {
+        case 20:
+            return "Excellent"
+        case 18:
+        case 19:
+            return "Très bien"
+        case 16:
+        case 17:
+            return "Bien"
+        case 14:
+        case 15:
+            return "Assez bien"
+        default:
+            return "Passable"
+    }
+
+# If/Elif/Else
+if age < 12:
+    categorie = "Enfant"
+elif age < 18:
+    categorie = "Adolescent"
+else:
+    categorie = "Adulte"
+
+# Boucle for avec incrémentation
+for i in range(10):
+    x = i * 2
+    x += 5
+    compteur++
+
+# Boucle while avec décrémentation
+while compteur > 0:
+    compteur--
+    if compteur == 5:
+        break
+
+# Switch principal
+resultat = evaluer_note(15)
+print(resultat)
+
+# Switch avec jours
+jour_num = 3
+
+switch (jour_num) {
+    case 1:
+        jour = "Lundi"
+        break
+    case 2:
+        jour = "Mardi"
+        break
+    case 3:
+        jour = "Mercredi"
+        break
+    case 4:
+        jour = "Jeudi"
+        break
+    case 5:
+        jour = "Vendredi"
+        break
+    case 6:
+        jour = "Samedi"
+        break
+    case 7:
+        jour = "Dimanche"
+        break
+    default:
+        jour = "Invalide"
+}
+
+print(jour)
+
+# Comparaisons
+if age >= 18 and compteur < 100:
+    print("Condition vraie")
+elif age < 18 or compteur > 100:
+    print("Autre condition")
+else:
+    print("Condition par défaut")

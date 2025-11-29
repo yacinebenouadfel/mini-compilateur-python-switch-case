@@ -1,0 +1,31 @@
+# ========================================
+# TEST 3: Code avec Erreurs Syntaxiques
+# Ce test vérifie la gestion des erreurs
+# ========================================
+
+# Erreur 1: Manque '(' après switch
+switch x {
+    case 1:
+        print("test")
+        break
+}
+
+# Erreur 2: Manque ':' après case
+switch (y) {
+    case 1
+        print("erreur")
+        break
+    case 2:
+        print("ok")
+}
+
+# Erreur 3: Manque '}' pour fermer
+switch (z) {
+    case 1:
+        print("test")
+        break
+
+# Erreur 4: Expression invalide
+w =
+
+# Ces erreurs doivent être détectées et affichées !

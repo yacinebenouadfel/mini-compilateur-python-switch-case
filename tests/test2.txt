@@ -1,0 +1,24 @@
+# Test avec notes
+note = 15
+
+switch (note) {
+    case 20:
+        mention = "Excellent"
+        break
+    case 18:
+    case 19:
+        mention = "Très bien"
+        break
+    case 16:
+    case 17:
+        mention = "Bien"
+        break
+    case 14:
+    case 15:
+        mention = "Assez bien"
+        break
+    default:
+        mention = "Passable"
+}
+
+print(mention)
